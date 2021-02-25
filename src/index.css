@@ -1,0 +1,34 @@
+body {
+  background-image: url('./imgs/bg.jpg');
+
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 650;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  margin-top: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer {
+  margin-bottom: 25%;
+  margin-top: 10%;
+  font-size: 500%;
+}
+
+.buttons {
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between ;
+}
+

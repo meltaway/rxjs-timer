@@ -53,10 +53,10 @@ const timer = {
                         }
                     }
 
-                subject.next(state) // passing state to setInterval?
+                subject.next(state)
             }, 1000)
         }
-        //subject.next(state) // handling next state
+        subject.next(state)
     },
 
     // set to initial state
